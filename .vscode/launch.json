@@ -1,0 +1,113 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "palinprogram",
+      "request": "launch",
+      "mainClass": "palinprogram",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "type": "java",
+      "name": "addDigit",
+      "request": "launch",
+      "mainClass": "addDigit",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "type": "java",
+      "name": "Sumnumber",
+      "request": "launch",
+      "mainClass": "Sumnumber",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "type": "java",
+      "name": "Reversename",
+      "request": "launch",
+      "mainClass": "Reversename",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "type": "java",
+      "name": "reversename",
+      "request": "launch",
+      "mainClass": "reversename",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "ReverseString",
+      "projectName": "JavaProgram_f2a89768"
+    },
+    {
+      "name": "(gdb) Bash on Windows Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "processId": "${command:pickRemoteProcess}",
+      "pipeTransport": {
+        "debuggerPath": "/usr/bin/gdb",
+        "pipeProgram": "${env:windir}\\system32\\bash.exe",
+        "pipeArgs": [
+          "-c"
+        ],
+        "pipeCwd": ""
+      },
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "(gdb) Attach",
+      "type": "cppdbg",
+      "request": "attach",
+      "program": "enter program name, for example ${workspaceFolder}/a.exe",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/path/to/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "e:/JavaProgram",
+      "program": "e:/JavaProgram/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
