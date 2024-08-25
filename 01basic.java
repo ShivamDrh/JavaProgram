@@ -4,4 +4,4 @@ class Test
     {
         System.out.println("Hello! Welcome to the Java.");
     }
-};
+}
